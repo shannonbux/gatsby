@@ -37,14 +37,7 @@ You can create a PR with your draft article (or edits on an existing article) in
 4. Scroll to the bottom of the screen and add a commit message explaining your changes. Then select the radio button option for "Create a new branch for this commit and start a pull request" and click "Propose file changes"
 5. On the next screen, you can add any other details about your PR, then click "Create pull request".
 
-If you prefer to write locally before submitting a PR, then follow these steps:
-
-1. Fork this repository
-2. Copy it to your local machine by running the command `git clone` `https://github.com/YOUR-GITHUB-USERNAME/guides.git`
-3. Add a remote upstream so git knows where the official Gatsby Guides repository is located by running the command `git remote add upstream` *incomplete code here*
-4. Create a new branch for your work with the command `git checkout -b NEW-BRANCH-NAME`. Try to name your branch in a way that describes your article topic, like `fix/ArticleHTMLElements`
-5. Write your article, commit your changes locally, and push your new branch to GitHub with the command `git push origin NEW-BRANCH-NAME`
-6. Go to your repository on GitHub and open a PR
+If you prefer to write locally before submitting a PR, then follow [these steps](https://www.gatsbyjs.org/docs/how-to-contribute/#contributing).
 
 Make sure to maintain your local fork going forward so it stays up-to-date with the Gatsby guides repository. The next time you want to contribute, checkout your local `master` branch and run the command `git pull --rebase upstream master` before creating a new branch. This will grab all the changes on the official master branch without making an additional commit in your local repository.
 
